@@ -32123,7 +32123,7 @@ function (_Component) {
           return {
             author: results.author,
             quote: results.quote,
-            twitter: 'http://twitter.com/intent/tweet?hashtags=quotes&text='
+            twitter: 'twitter.com/intent/tweet'
           };
         });
       }).catch(function (error) {
@@ -32162,7 +32162,8 @@ function (_Component) {
       }, "Next Quote"), _react.default.createElement("hr", {
         className: "rule"
       }), _react.default.createElement("a", {
-        href: this.state.twitter
+        href: this.state.twitter,
+        id: "tweet-quote"
       }, _react.default.createElement("img", {
         src: _twitterIcon.default,
         alt: "twitter-Icon",
@@ -32235,7 +32236,7 @@ function (_Component) {
     value: function render() {
       return _react.default.createElement("div", {
         id: "title"
-      }, _react.default.createElement("h1", null, "RandomQuote Machine"), _react.default.createElement(_RandomQuotemachine.default, null));
+      }, _react.default.createElement("h1", null, "Random Quote Machine"), _react.default.createElement(_RandomQuotemachine.default, null));
     }
   }]);
 
@@ -32291,7 +32292,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49579" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49207" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
