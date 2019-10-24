@@ -38,6 +38,19 @@
     width: 70px;
     height: 70px;
     margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+@media(max-width: 400px){
+    #quote-box{
+        height: 70vh;
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .twitterIcon{
+        height: 30px;
+        width: 30px;
+    }
 }
 #title{
     text-align: center;
