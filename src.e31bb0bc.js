@@ -32235,7 +32235,7 @@ function (_Component) {
     value: function render() {
       return _react.default.createElement("div", {
         id: "title"
-      }, _react.default.createElement("h1", null, "Random RandomQuote Machine"), _react.default.createElement(_RandomQuotemachine.default, null));
+      }, _react.default.createElement("h1", null, "RandomQuote Machine"), _react.default.createElement(_RandomQuotemachine.default, null));
     }
   }]);
 
@@ -32291,7 +32291,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62946" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49579" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
