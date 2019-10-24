@@ -30,7 +30,7 @@ class RandomQuotemachine extends Component{
                 return {
                     author: results.author,
                     quote: results.quote,
-                    twitter: 'http://twitter.com/intent/tweet?hashtags=quotes&text='
+                    twitter: 'twitter.com/intent/tweet'
                 };
             }))
             .catch(error => alert(error.message));
@@ -45,7 +45,7 @@ class RandomQuotemachine extends Component{
                     <h4 id='author'><em>{this.state.author}</em></h4>
                     <button id='new-quote' onClick={this.fetchNextQuote}>Next Quote</button>
                     <hr className='rule' />
-                    <a href={this.state.twitter} >
+                    <a href={this.state.twitter} id='tweet-quote'>
                         <img src={twitterIcon} alt='twitter-Icon' className='twitterIcon' />
                     </a>
                 </div>
