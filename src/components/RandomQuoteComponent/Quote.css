@@ -1,0 +1,41 @@
+
+#quote-box{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .8));
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #5a5aba;
+    border-radius: 10px;
+    text-align: center;
+    height: 60vh;
+}
+#quote-box p{
+    color: #eee;
+}
+#quote-box h4{
+    color: #fff;
+}
+
+#quote-box button{
+    cursor: pointer;
+    width: 120;
+    padding: 7px;
+    margin: 10px 0;
+    background-color: tomato;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-family: 'Josefin', sans-serif;
+    color: #eee;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .4);
+}
+
+.rule{
+    width: 50%;
+}
+.twitterIcon{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
